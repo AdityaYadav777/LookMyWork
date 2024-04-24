@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #FDEEEE;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: #F97171;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+#lolo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: solid 1.4px white;
+    border-radius: 100px;
+    top: 20px;
+    left: 7px;
+
+}
+
+
+#myTitle {
+    padding-left: 65px;
+    padding-top: 25px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    position: absolute;
+}
+
+.myNav {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-menu {
+    padding: px;
+    text-decoration: dashed;
+    font-weight: 200;
+    font-style: unset;
+    margin: 30px;
+    padding: 7px;
+    color: #FDEEEE;
+    border: solid 1px;
+    border-radius: 7px;
+    border-color: #FDEEEE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #FDEEEE;
+    position: relative;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 27px;
+    margin: 20px;
+    margin-top: 7vh;
+}
+
+#main-top {
+    display: flex;
+}
+
+#desc {
+    margin-top: 15vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+   
+}
+
+#aboutMe {
+    position: absolute;
+    left: 190px;
+    top: 70px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+#main-center {
+    display: flex;
+    justify-content: center;
+}
+
+#hamburger {
+    visibility: hidden;
+}
+
+.photo {
+    width: 30vh;
+    height: 70vh;
+    padding: 35px;
+}
+
+.my-logo {
+    width: 100px;
+    height: 100px;
+    border: solid 1 px;
+    border-radius: 50px;
+    border-color: aliceblue;
+}
+
+@media screen and (max-width: 1087px) {
+    .nav-menu {
+        font-size: 16px;
+        margin: 5px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media screen and (max-width: 885px) {
+    .nav-menu {
+        font-size: 13px;
+        margin: 5px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: end;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 793px) {
+    .nav-menu {
+        font-size: 12px;
+        margin: 5px;
+        margin-top: 70px;
+        display: inline-block;
+        justify-content: start;
+        padding: 0;
+        padding-bottom: 10px;
+        padding-top: 17px;
+        border: 0;
+
+    }
+
+    #myTitle {
+        font-size: 28px;
+   
+    }
+
+}
+
+@media screen and (max-width: 492px) {
+    .my-logo {
+        width: 10px;
+        height: 60px;
+
+    }
+}
+
+@media screen and (max-width: 1057px) {
+    #main-center {
+        display: block;
+    }
+
+    #hamburger {}
+
+    #logos {
+        display: block;
+    }
+
+    .my-logo {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    #aboutMe {
+        font-size: 20px;
+        left: 33%;
+        top: 20px;
+
+    }
+
+    #logo {
+        width: 90px;
+        height: 90px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 7px;
+    }
+
+
+
+
+
+    #desc {
+        margin-top: 100px;
+        margin-left: -80px;
+        padding: 7px;
+    }
+
+    .photo {
+        width: 30vh;
+        height: 65vh;
+
+    }
+
+    .my-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+
+#service-text {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#service-desc {
+    padding-left: 45px;
+    padding-right: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+    padding-top: 20px;
+}
+
+#logos {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: space-between;
+}
+
+#whyUse {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 7px;
+}
+
+
+
+
+#whyUse {
+    margin: 20px;
+}
+
+.myli {
+    padding: 7px;
+    opacity: 0.8;
+    margin-left: 35px;
+}
+
+#complement {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#main-comin {
+    display: flex;
+}
+
+#meraPhoto {
+    width: 150px;
+    height: 150px;
+}
+
+#com-text {
+    width: 60%;
+}
+
+#join {
+
+    width: 100%;
+    height: 50vh;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+
+}
+
+#join-pic {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+
+
+}
+
+#text-join {
+    width: 60%;
+    position: absolute;
+    top: 68px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 9px;
+}
+
+#main-join {
+    display: flex;
+}
+
+#com-text {
+    opacity: 0.8;
+    margin: 30px;
+}
+
+#footer-bar {
+    width: 100%;
+    height: auto;
+    background-color: #F97171;
+}
+
+#social-logo {
+    display: flex;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 935px) {
+    #social-logo {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 75px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1320px) {
+    #social-logo {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 18px;
+    }
+
+
+}
+
+@media screen and (max-width: 820px) {
+    #social-logo {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 68px;
+    }
+
+
+}
+
+@media screen and (max-width: 620px) {
+    #social-logo {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 148px;
+    }
+
+
+}
+
+
+
+.s-logo {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+
+}
+
+.s-logo:hover {
+    width: 25px;
+    height: 25px;
+}
+
+.b-menu {
+    text-decoration: double;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#f-title {
+    margin: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 29px;
+    color: aliceblue;
+    padding-top: 10px;
+}
+
+#p-data-f {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lucida Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FDEEEE;
+    opacity: 0.9;
+    font-size: 14px;
+
+}
+
+#b-item {
+    display: flex;
+
+
+}
+
+.item-b {
+    margin: 30px;
+
+}
+
+
+#pp-nav {
+    width: 100%;
+    height: 80px;
+    background-color: #F97171;
+}
+
+#pp-text {
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+#main-pp {
+    width: 100%;
+    height: 100%;
+    background-color: #FDEEEE;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+#down-btn{
+    width:250px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #F97171;;
+    color: #FDEEEE;
+    border-color: aliceblue;
+    margin-top: 54px;
+    text-decoration: dotted;
+
+}
+#down-btn a{
+    text-decoration: dashed;
+    color: aliceblue;
+}
+
+
+@media (max-width: 694px) {
+
+    #down-btn{
+        width: 150px;
+        height: 35px;
+        left: 27%;
+        border-radius: 20px;
+        background-color: #F97171;;
+        color: #FDEEEE;
+        border-color: aliceblue;
+        position: absolute;
+        
+    
+    }
+
+    div.scroll-container {
+        background-color: none;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+    }
+
+    div.scroll-container img {
+        padding: 10px;
+    }
+    .myNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
